@@ -1,4 +1,5 @@
 # --- Simulation Models ---
+import numpy as np
 def simulate_exponential_fixed(N=100, generations=5000, p_A_init=0.5, mu_0=0.05, beta=5):
     i = int(p_A_init * N)
     a, b, d = 3.0, 2.0, 1.0
