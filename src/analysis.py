@@ -1,3 +1,13 @@
+import numpy as np
+from src.models import (
+    simulate_exponential_fixed,
+    simulate_exponential_dynamic,
+    simulate_logistic_fixed,
+    simulate_logistic_dynamic,
+    simulate_threshold_fixed,
+    simulate_threshold_dynamic,
+)
+
 # --- Analysis Functions (entropy, CI, etc.) ---
 def entropy(p_A):
     p_B = 1 - p_A
