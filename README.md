@@ -1,3 +1,5 @@
+![CI](https://github.com/kcunningturkey/Dynamic-Mutation-Rates/actions/workflows/ci.yml/badge.svg)
+
 # Adaptive Mutation and Payoff Dynamics in Finite Populations
 
 This repository contains the code and analysis for my undergraduate honors thesis on dynamic mutation rates in evolutionary game theory.
